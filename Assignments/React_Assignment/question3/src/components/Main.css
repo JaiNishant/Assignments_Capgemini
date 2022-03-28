@@ -1,0 +1,47 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1rem;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th,
+  td {
+    border: 1px solid #ffffff;
+    text-align: left;
+    padding: 8px;
+    /* font-size: 32px; */
+  }
+  
+  th {
+    /* background-color: rgb(250, 219, 117); */
+    border-bottom: 2px solid gainsboro;
+  }
+  
+  /* td {
+    background-color: rgb(205, 235, 253);
+    border-bottom: 2px solid gainsboro;
+  } */
+  h2{
+    text-align: left;
+    font-size: 20px;
+  }
+  
+form{
+    text-align: left;
+}
+#button{
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+}
+#SubmitButton{
+    background-color: greenyellow;
+    color: white;
+    border-radius: 20px;
+}
